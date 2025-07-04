@@ -1,6 +1,6 @@
 const accountId=54646;
-let email='ayush@example.com';
-var password='12345678';  //avoided
+let email='ayuh@example.com';
+var password=12345678;  //avoided
 accountCity="jaipur";
 
 
