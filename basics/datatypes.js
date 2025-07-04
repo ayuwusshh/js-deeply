@@ -5,8 +5,6 @@ let name = "Ayush";
 let age = 22;
 let isLoggedIn = true;
 let state;
-
-
 // primtive data types
 //  number => 2 to the power of 53
 // bigint
@@ -16,7 +14,11 @@ let state;
 // undefined => value not assigned
 // symbol => unique value
 
+const symB = Symbol('userId');
+const symA = Symbol('userId');
 
 //objects
 
-console.log(typeof null);
+console.log(String(symA));   // This forces conversion to a readable string
+console.log(typeof symA);    // Should say "symbol"
+
