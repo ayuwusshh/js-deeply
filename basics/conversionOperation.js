@@ -1,10 +1,10 @@
 let score = "33a";
-console.log(typeof score); // string
-console.log(typeof (score)); // number
+// console.log(typeof score); // string
+// console.log(typeof (score)); // number
 
 let valNu=Number(score);
-console.log(typeof valNu);
-console.log(valNu); // NaN
+// console.log(typeof valNu);
+// console.log(valNu); // NaN
 
 
 
@@ -16,3 +16,10 @@ console.log(valNu); // NaN
 // Boolean
 // 1=>true;0=>false
 // ""=>false;"any string"=>true
+
+
+
+// **********Operations**********
+let val = 3;
+let NegVal=-val;
+console.log(NegVal); 
